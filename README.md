@@ -9,5 +9,9 @@ repo:`node-hello-world
 4. Impostiamo un nuovo script “watch” in `package.json` che possa essere lanciato con `npm run dev` e che aggiorni in tempo reale le modifiche ai nostri file. Lanciamolo e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. Dovremmo vedere il terminale senza fermare e rilanciare il server.
 5. Proviamo a passare da terminale una parola come argomento. da mostrare dopo “Hello”. Dovremo quindi stampare “Hello *parola_passata”*
 ## SVOLGIMENTO
-- 
+- Ho creato innanzitutto il mio file js.
+- Ho poi utilizzato il terminale per inizializzare il mio file e creare il file json.
+- Nel json ho creato i due nuovi script richiesti da consegna. e li ho utilizzati nel terminale per controllare il loro funzionamento.
+- Ho successivamente creato una const in js per la mia parola da mostrare nel console log dopo la scritta HELLO, utilizzando il process.argv con indice 2.
+- Ho infine testato il mio console.log richiamando con il template literal la mia parola per controllare se si fosse associata nel modo corretto a ciò che ho scritto nel mio terminal.
   
